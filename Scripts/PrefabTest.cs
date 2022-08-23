@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PrefabTest : MonoBehaviour
 {
+    [SerializeField]private int value = 0;
     // Start is called before the first frame update
     void Start()
     {
